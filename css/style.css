@@ -1,0 +1,244 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+header,
+main,
+footer {
+  padding-left: 290px;
+}
+
+@media only screen and (max-width: 992px) {
+  header,
+  main,
+  footer {
+    padding-left: 0;
+  }
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  margin-top: -30px;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.sidenav {
+  width: 290px;
+}
+
+.sidenav .user-view {
+    position: relative;
+    padding: 20px 31px 0;
+    margin-bottom: -3px;
+}
+
+#intro.section .teal {
+    padding: 0 10px;
+}
+
+.teal {
+    background-color: #008073 !important;
+}
+
+#intro.section .underline {
+    border-bottom: 5px solid #009688;
+}
+
+#intro.section .container *:not(span) {
+    font-weight: 300;
+    line-height: 150%;
+    padding: 0 30px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.section {
+    padding-bottom: 30px;
+    padding-top: 0;
+    position: relative;
+}
+
+h3 {
+    font-weight: 200;
+    margin-bottom: 60px;
+    margin-top: 0;
+    padding: 30px 40px;
+    text-transform: uppercase;
+}
+
+blockquote {
+    border-left: 5px solid #795548;
+    color: #795548;
+    font-size: 125%;
+    font-weight: 400;
+    margin: 20px 0;
+    padding-left: 1.5rem;
+}
+
+blockquote * {
+    font-size: inherit;
+    line-height: inherit;
+}
+
+ul.content-table li:not(.logo) a.active, ul.content-table li:not(.logo) a:hover {
+    background-color: #fafafa;
+    border-left: 3px solid;
+}
+
+ul.content-table a.active {
+    font-weight: 500;
+}
+.spacer{
+  padding: 0px;
+}
+
+.card {
+    margin-bottom: 60px;
+}
+.card .card-content {
+    padding-bottom: 30px;
+}
+
+#experience .card-content .row {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+#experience .col.s12.m2 {
+    text-align: center;
+}
+
+#experience .card .col.s12.m2 a {
+    display: block;
+}
+
+#experience .card .col.s12.m2 a img {
+    max-height: 60px;
+}
+
+.card .card-content p {
+    padding: 5px 0 0;
+}
+
+.card .card-content .card-title {
+    line-height: 2.5rem;
+}
+
+.card .card-title {
+    font-size: 24px;
+}
+
+a.hoverline {
+    border-bottom: 3px solid transparent !important;
+    padding: 3px 3px 0 3px;
+    transition: .25s all;
+    -moz-transition: .25s all;
+    -webkit-transition: .25s all;
+}
+
+.card .role {
+    font-size: 1.25rem;
+    position: absolute;
+    right: 38px;
+    top: 35px;
+}
+
+.card h6 {
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+
+.card ul {
+    margin-bottom: 0;
+}
+
+#experience .card ul {
+    margin-bottom: 50px;
+}
+
+.card ul li {
+    line-height: 200%;
+    list-style-type: disc;
+    margin-left: 24px;
+}
+
+#experience .card-action {
+    background-color: rgba(0,0,0,0.02);
+    border: none;
+}
+
+.white-text {
+    color: #FFFFFF !important;
+}
+
+.card .card-image {
+    position: relative;
+    height: 210px;
+}
+
+.card-action a.btn-floating {
+    margin-bottom: 0;
+    margin-right: 25px;
+}
+
+.fa-external-link:before {
+    left: 3px;
+    position: relative;
+    top: 2px;
+}
+
+.card .card-action {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
