@@ -3,6 +3,6 @@
 
     $('.sidenav').sidenav();
     $('.parallax').parallax();
-    $('.scrollspy').scrollSpy();
+    $('.scrollspy').scrollSpy({target: ".sidenav"});
   }); // end of document ready
 })(jQuery); // end of jQuery name space
