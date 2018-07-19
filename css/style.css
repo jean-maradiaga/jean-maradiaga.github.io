@@ -71,6 +71,10 @@ a.hoverline {
     -webkit-transition: .25s all;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 footer.page-footer {
   margin: 0;
 }
@@ -301,9 +305,13 @@ footer.page-footer {
   bottom: 0;
 }
 
-/*Awards*/
+/*Contact*/
 
-
+#contact a:not(.btn-floating) {
+    bottom: 6px;
+    left: 20px;
+    position: relative;
+}
 
 /*Others*/
 
