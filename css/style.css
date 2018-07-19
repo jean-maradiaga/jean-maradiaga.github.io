@@ -319,6 +319,9 @@ footer.page-footer {
     text-align: center;
 }
 
+.full-height {
+    height: 75vh;
+}
 
 /*Media Queries*/
 
